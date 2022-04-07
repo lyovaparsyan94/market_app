@@ -6,4 +6,4 @@ def load_config(config_path):
         config = yaml.safe_load(stream=stream)
     return config
 
-# print(load_config('/home/lyova/work/market_app/logs/market_log_config.yaml'))
+print(load_config('/home/lyova/work/market_app/logs/market_log_config.yaml'))
