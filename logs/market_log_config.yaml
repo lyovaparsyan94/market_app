@@ -1,0 +1,16 @@
+loggers:
+  version: 1
+  formatters:
+    default:
+      format: '%(asctime)s :: %(levelname)s :: %(name)s:: %(message)s | %(funcName)s'
+  handlers:
+    file:
+      class: logging.handlers.RotatingFileHandler
+      formatter: default
+      filename: /home/lyova/work/market_app/logs/market.log
+      maxBytes: 1024
+      backupCount: 3
+  loggers:
+    market_user:
+      level: INFO
+      handlers: [file]
