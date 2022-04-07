@@ -3,7 +3,8 @@ mapper = {
     "milk": 2,
     "juice": 3,
     "banana": 4,
-    'yogurt': 5
+    'yogurt': 5,
+    'malina': 6
 
 }
 
